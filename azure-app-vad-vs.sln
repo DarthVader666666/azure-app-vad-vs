@@ -7,6 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-app-vad-vs", "azure-a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.AzureCosmosDb.Demo", "..\Blazor.AzureCosmosDb.Demo\Blazor.AzureCosmosDb.Demo.csproj", "{D02A42E4-98B5-4D7D-AFE8-3EA5EFCFEBDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc.StorageAccount.Demo", "..\Mvc.StorageAccount.Demo\Mvc.StorageAccount.Demo.csproj", "{0AFA12BA-AEC4-4860-BE02-425567B94AD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.QueueConsumer.Demo", "..\Console.QueueConsumer.Demo\Console.QueueConsumer.Demo.csproj", "{B6DE31C9-8420-4897-8BAE-A8016794C744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBusSender.Demo", "..\Console.ServiceBusSender.Demo\Console.ServiceBusSender.Demo.csproj", "{A3D2AFE7-63D0-4169-9F7F-939C801FF678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ServiceBudReceiver.Demo", "..\Console.ServiceBudReceiver\Console.ServiceBudReceiver.Demo.csproj", "{C869E1D9-129B-452D-AEF2-3E7864C25A34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,22 @@ Global
 		{D02A42E4-98B5-4D7D-AFE8-3EA5EFCFEBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D02A42E4-98B5-4D7D-AFE8-3EA5EFCFEBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D02A42E4-98B5-4D7D-AFE8-3EA5EFCFEBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AFA12BA-AEC4-4860-BE02-425567B94AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFA12BA-AEC4-4860-BE02-425567B94AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFA12BA-AEC4-4860-BE02-425567B94AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFA12BA-AEC4-4860-BE02-425567B94AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DE31C9-8420-4897-8BAE-A8016794C744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DE31C9-8420-4897-8BAE-A8016794C744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DE31C9-8420-4897-8BAE-A8016794C744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DE31C9-8420-4897-8BAE-A8016794C744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3D2AFE7-63D0-4169-9F7F-939C801FF678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D2AFE7-63D0-4169-9F7F-939C801FF678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D2AFE7-63D0-4169-9F7F-939C801FF678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D2AFE7-63D0-4169-9F7F-939C801FF678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C869E1D9-129B-452D-AEF2-3E7864C25A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C869E1D9-129B-452D-AEF2-3E7864C25A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C869E1D9-129B-452D-AEF2-3E7864C25A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C869E1D9-129B-452D-AEF2-3E7864C25A34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
